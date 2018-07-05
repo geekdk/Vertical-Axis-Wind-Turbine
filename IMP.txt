@@ -1,0 +1,28 @@
+One assessment claimed that, as of 2009, wind had the "lowest relative greenhouse gas emissions, the least water consumption demands and... the most favourable social impacts" compared to photovoltaic, hydro, geothermal, coal and gas.[1]
+
+Some of the newer versions actually combine the two designs and use a small Savonius wind turbine mounted on the shaft of a Darrieus wind turbine to provide the initial spin and then the lift takes over from there. The advantage that the Darrieus wind turbine has over other models is that its blades can actually spin faster than the wind that is passing. This gives it a very high rotation and is perfect for generating power as a result.
+
+Advantages
+VAWTs offer a number of advantages over traditional horizontal-axis wind turbines (HAWTs):
+
+they are omni-directional and do not need to track the wind. This means they don't require a complex mechanism and motors to yaw the rotor and pitch the blades.
+ability to take advantage of turbulent and gusty winds. Such winds are not harvested by HAWTs, and in fact cause accelerated fatigue for HAWTs.
+the gearbox of a VAWT takes much less fatigue than that of a HAWT.[citation needed] Should it be required, replacement is less costly and simpler, as the gearbox is easily accessible at ground level. This means that a crane or other large equipment is not needed at the site, reducing cost and impact on the environment. Motor and gearbox failures generally increase the operational and maintenance costs of HAWT wind farms both on and offshore.
+some VAWTs can use a screw pile foundation, allowing a huge reduction in the carbon cost of an installation as well as a reduction in road transport of concrete during installation. They can be fully recycled at the end of their life.
+wings of the Darrieus type have a constant chord and so are easier to manufacture than the blades of a HAWT, which have a much more complex shape and structure.
+can be grouped more closely in wind farms, increasing the generated power per unit of land area.
+can be installed on a wind farm below the existing HAWTs; this will improve the efficiency (power output) of the existing farm.[7]
+research at Caltech has also shown that a carefully designed wind farm using VAWTs can have an output power ten times that of a HAWT wind farm of the same size.[8]
+Disadvantages
+One of the major outstanding challenges facing vertical axis wind turbine technology is dynamic stall of the blades as the angle of attack varies rapidly.[9][10][11]
+
+The blades of a VAWT are fatigue-prone due to the wide variation in applied forces during each rotation. This can be overcome by the use of modern composite materials and improvements in design - including the use of aerodynamic wing tips that cause the spreader wing connections to have a static load. The vertically oriented blades can twist and bend during each turn, causing them to break apart.
+
+VAWTs have proven less reliable than HAWTs,[12] although modern designs of VAWTs have overcome many of the issues associated with early designs.[13][14]
+
+
+https://www.youtube.com/watch?v=du0lYubtlfQ
+
+https://www.youtube.com/watch?v=MjgIYJ_9aIM
+
+https://www.youtube.com/watch?v=4ncCb6FJXLI -Hybrid

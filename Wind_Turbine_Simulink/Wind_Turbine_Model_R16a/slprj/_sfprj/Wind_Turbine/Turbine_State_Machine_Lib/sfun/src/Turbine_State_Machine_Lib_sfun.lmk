@@ -1,0 +1,20 @@
+CC     = "C:\Program Files\MATLAB\R2016a\sys\lcc64\lcc64\bin\lcc64.exe"
+LD     = "C:\Program Files\MATLAB\R2016a\sys\lcc64\lcc64\bin\lcclnk64.exe"
+LIBCMD = "C:\Program Files\MATLAB\R2016a\sys\lcc64\lcc64\bin\lcclib64.exe"
+CFLAGS = -dll -noregistrylookup  -c -Zp8 -DLCC_WIN64 -DMATLAB_MEX_FILE -DMX_COMPAT_32 -nodeclspec 
+LDFLAGS = -s -dll -L"C:\Program Files\MATLAB\R2016a\sys\lcc64\lcc64\lib64" -entry LibMain -map sfun.map 
+LIBFLAGS = 
+
+OBJECTS = \
+	"Turbine_State_Machine_Lib_sfun.obj"\
+	"c1_Turbine_State_Machine_Lib.obj"\
+
+INCLUDE_PATH= -I"C:\Program Files\MATLAB\R2016a\sys\lcc64\lcc64\include64"  -I"C:\Program Files\MATLAB\R2016a\extern\include"  -I"C:\Program Files\MATLAB\R2016a\simulink\include"  -I"C:\Program Files\MATLAB\R2016a\simulink\include\sf_runtime"  -I"C:\Program Files\MATLAB\R2016a\stateflow\c\mex\include"  -I"C:\Program Files\MATLAB\R2016a\rtw\c\src"  -I"A:\Internship\Vrertical Turbine\Wind_Turbine_Simulink\Wind_Turbine_Model_R16a\slprj\_sfprj\Wind_Turbine\Turbine_State_Machine_Lib\sfun\src" 
+ 
+
+Turbine_State_Machine_Lib_sfun.lib : $(MAKEFILE) $(OBJECTS)
+	$(LIBCMD) $(LIBFLAGS) /OUT:Turbine_State_Machine_Lib_sfun.lib *.obj
+Turbine_State_Machine_Lib_sfun.obj :	"Turbine_State_Machine_Lib_sfun.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "Turbine_State_Machine_Lib_sfun.c"
+c1_Turbine_State_Machine_Lib.obj :	"c1_Turbine_State_Machine_Lib.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c1_Turbine_State_Machine_Lib.c"
